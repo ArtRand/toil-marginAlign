@@ -10,7 +10,7 @@ setup(name="toil-nanopore",
       url="https://github.com/ArtRand/toil-marginAlign",
       package_dir={"": "src"},
       packages=find_packages("src"),
-      install_requires=["PyYAML==3.12",
+      install_requires=["PyYAML==5.1",
                         "marginAlign==1.1.9",
                         "toil-lib==1.2.0a1.dev139"],
       entry_points={
